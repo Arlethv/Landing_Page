@@ -118,3 +118,46 @@
     line-height: 34px;
     color: #000000;
 }
+
+.rectangulo{
+position: absolute;
+width: 396px;
+height: 750px;
+left: 483px;
+top: 1544px;
+background: #5B2C6F;
+}
+
+.imagen2{
+position: absolute;
+width: 826px;
+height: 590px;
+left: -120px;
+top: 100px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.cuadrado4{
+    position: absolute;
+    width: 486px;
+    height: 333.17px;
+    left: -330px;
+    top: 1000px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.enunciado3{
+    position: absolute;
+    width: 430px;
+    height: 259.13px;
+    left: 160px;
+    top: 1000px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+}
