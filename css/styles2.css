@@ -1,0 +1,120 @@
+.cuadrado1{
+    position: absolute;
+    width: 363.65px;
+    height: 352.14px;
+    left: 62px;
+    top: 802px;
+    background: #00A5B5;
+    border-radius: 50px
+}
+
+.cuadrado2{
+    position: absolute;
+    width: 363.65px;
+    height: 352.14px;
+    left: 499.18px;
+    top: 802px;
+    background: #5B2C6F;
+    border-radius: 50px;
+}
+
+.cuadrado3{
+    position: absolute;
+    width: 363.65px;
+    height: 352.14px;
+    left: 936.35px;
+    top: 802px;
+
+    background: #00A5B5;
+    border-radius: 50px
+}
+
+.beneficio{
+    position: absolute;
+    width: 292px;
+    height: 189px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    top: 148px;
+    left: 35px;
+    color: #FFFFFF;
+}
+
+.descripcion{
+    position: absolute;
+    width: 292px;
+    height: 189px;
+    left: 35px;
+    top: 210px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.icon{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 119px;
+    top: 5px;
+    
+}
+
+.enunciado2{
+    position: absolute;
+    width: 595px;
+    height: 92px;
+    left: 78px;
+    top: 1212px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.mensaje{
+    position: absolute;
+    width: 581px;
+    height: 54px;
+    left: 683px;
+    top: 1220px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+
+}
+
+.btn2{
+    position: absolute;
+    width: 291px;
+    height: 77px;
+    left: 683px;
+    top: 1298px;
+    background: #FFC300;
+    border-radius: 10px;
+    border: 2px solid #FFC300;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.text2{
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+}
