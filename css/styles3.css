@@ -1,19 +1,20 @@
 .about{
     position: absolute;
     width: 396px;
-    height: 340px;
+    height: 495px;
     left: 57px;
     top: 2320px;
     background: #FFFFFF;;
     box-shadow: 1px 4px 4px 1px rgba(0.5, 0.5, 0.5, 0.5);
 }
 
+
 .titulo_about{
     position: absolute;
     width: 351px;
     height: 50px;
     left: 5px;
-    top: 10px;
+    top: 140px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -27,9 +28,9 @@
     position: absolute;
     width: 305px;
     height: 275px;
-    top: 70px;
+    top: 200px;
     left: 35px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -42,7 +43,7 @@
 .about2{
     position: absolute;
     width: 396px;
-    height: 340px;
+    height: 495px;
     left: 470px;
     top: 2320px;
     background: #FFFFFF;;
@@ -52,9 +53,25 @@
 .about3{
     position: absolute;
     width: 396px;
-    height: 340px;
+    height: 495px;
     right: 67px;
     top: 2320px;
     background: #FFFFFF;;
     box-shadow: 1px 4px 4px 1px rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+.circulo7{
+    position: absolute;
+    width: 99px;
+    height: 99px;
+    margin: 30px 148px  ;
+    background: #C6E2FF;
+    border-radius: 50%;
+}
+
+.icon_about{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 17px 17px  ;
 }
