@@ -3,19 +3,32 @@
     width: 363.65px;
     height: 352.14px;
     left: 62px;
-    top: 802px;
+    top: 750px;
     background: #00A5B5;
-    border-radius: 50px
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
 }
+  
+  .cuadrado1:hover {
+    background-color: #67d4c4;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+  }
 
 .cuadrado2{
     position: absolute;
     width: 363.65px;
     height: 352.14px;
     left: 499.18px;
-    top: 802px;
+    top: 750px;
     background: #5B2C6F;
     border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.cuadrado2:hover {
+    background-color: #8F5CA1;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
 }
 
 .cuadrado3{
@@ -23,10 +36,16 @@
     width: 363.65px;
     height: 352.14px;
     left: 936.35px;
-    top: 802px;
-
+    top: 750px;
     background: #00A5B5;
-    border-radius: 50px
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.cuadrado3:hover {
+    background-color: #67d4c4;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
 }
 
 .beneficio{
@@ -59,13 +78,14 @@
     color: #FFFFFF;
 }
 
+
 .icon{
     position: absolute;
     width: 128px;
     height: 128px;
     left: 119px;
     top: 5px;
-    
+    filter: drop-shadow(0px 5px 10px rgba(0,0,0,0.1));
 }
 
 .enunciado2{
@@ -73,7 +93,7 @@
     width: 595px;
     height: 92px;
     left: 78px;
-    top: 1212px;
+    top: 1160px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -87,7 +107,7 @@
     width: 581px;
     height: 54px;
     left: 683px;
-    top: 1220px;
+    top: 1168px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -97,18 +117,24 @@
 
 }
 
+
 .btn2{
     position: absolute;
     width: 291px;
     height: 77px;
     left: 683px;
-    top: 1298px;
+    top: 1246px;
     background: #FFC300;
     border-radius: 10px;
     border: 2px solid #FFC300;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-
+.btn2:hover {
+    background-color: #FFC300;
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
 .text2{
     
     font-family: 'Open Sans';
@@ -119,45 +145,89 @@
     color: #000000;
 }
 
+
+#curso{
+    background-color: #FFFFFF ;
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+  }
+
+  #instructora {
+    background-color: #C6E2FF ;
+    height: 130vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+  }
+
 .rectangulo{
-position: absolute;
-width: 396px;
-height: 750px;
-left: 483px;
-top: 1544px;
-background: #5B2C6F;
-}
+    position: absolute;
+    width: 396px;
+    height: 750px;
+    left: 483px;
+    top: 1370px;
+    background: #5B2C6F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+
 
 .imagen2{
-position: absolute;
-width: 826px;
-height: 590px;
-left: -120px;
-top: 100px;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.cuadrado4{
     position: absolute;
-    width: 486px;
-    height: 333.17px;
-    left: -330px;
-    top: 0;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
-}
+    width: 950px;
+    height: 500px;
+    left: -80px;
+    top: 100px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 
-.enunciado3{
-    position: absolute;
-    width: 430px;
-    height: 259.13px;
-    left: 28px;
-    top: 60px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 49px;
-    text-align: center;
-    color: #000000;
-}
+    .cuadrado4{
+        position: absolute;
+        width: 456px;
+        height: 303px;
+        left: -280px;
+        top: 0;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cuadrado4 {
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .cuadrado4:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+      }
+      
+   
+    .enunciado3{
+        position: absolute;
+        width: 430px;
+        height: 259.13px;
+        left: 13px;
+        top: 60px;
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 49px;
+        text-align: center;
+        color: #333333;
+        font-weight: bold;
+    }
+
