@@ -589,6 +589,18 @@ html, body {
 
 
 }
+
+#curso .btn_curso:hover {
+  background-color: #9C8CB9;
+  cursor: pointer;
+  border: 0px;
+}
+
+.btn_curso a:hover {
+  color: #ffffff;
+}
+
+
  /*-----------Seccion Instructora---------------*/
 
 #instructora {
@@ -1306,3 +1318,11 @@ h3 {
     grid-template-columns: 1fr;
   }
 }
+
+
+/*-------Animaciones-------*/
+
+html {
+  scroll-behavior: smooth;
+}
+
