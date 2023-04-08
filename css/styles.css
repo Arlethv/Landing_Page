@@ -1254,7 +1254,7 @@ h2,p{
   color: #ffffff;
 }
 
-/*Seccion Footer*/
+/*----------Seccion Footer------------------*/
 
 
 #footer {
@@ -1263,7 +1263,8 @@ h2,p{
   height: auto;
   background: #000000;
   color: #FFFFFF;
-  padding: 20px 0;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
 }
 
 .footer-content {
@@ -1284,9 +1285,9 @@ h3 {
 }
 
 .icono_footer {
+  margin-right: 10px;
   width: 30px;
   height: 30px;
-  margin-right: 20px;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -1317,6 +1318,122 @@ h3 {
     grid-template-columns: 1fr;
   }
 }
+
+
+
+
+#footer h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#footer li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#footer img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+
+
+
+/* Estilos para las FAQ */
+
+
+.accordion-button:hover {
+  background-color: #6f3c87;
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: '';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  float: right;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.accordion-button.collapsed::after {
+  content: '';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  float: right;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.accordion-body {
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.faq-title {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.accordion-button {
+  background-color: #8f54a4;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.accordion-header {
+  margin-bottom: 10px;
+}
+
+.accordion-body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.accordion-button {
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: left;
+  padding: 15px 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.accordion-button:hover {
+  background-color: #6e3b81;
+  cursor: pointer;
+}
+
+.accordion-button {
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+
+.accordion-button:not(.collapsed) {
+  background-color: #C6E2FF !important;
+  color: #5B2C6F !important;
+  font-weight: bold;
+}
+
 
 
 /*-------Animaciones-------*/

@@ -1,12 +1,16 @@
 
  // Obtener los elementos necesarios del DOM
-const carrusel = document.querySelector('.carrusel_horizontal');
+
 const cuadrados = document.querySelectorAll('.cuadrado_beneficios_horizontal');
 const anteriorBtn = document.querySelector('.anterior');
 const siguienteBtn = document.querySelector('.siguiente');
 
-// Calcular el ancho total del carrusel
-const carruselWidth = carrusel.offsetWidth;
+const carrusel = document.querySelector('.carrusel_horizontal');
+if (carrusel !== null) {
+  const carruselWidth = carrusel.offsetWidth;
+}
+
+
 
 // Establecer el índice del cuadrado actual
 let indiceCuadrado = 0;
