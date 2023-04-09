@@ -1,7 +1,7 @@
 function validarNombre() {
   const nombreInput = document.getElementById('nombre');
   const nombreFeedbackValid = document.querySelector('.valid-feedback nombre');
-  const nombreValido = /^[a-zA-Z ]+$/.test(nombreInput.value);
+  const nombreValido = /^[a-zA-Z]+(\s[a-zA-Z]+)+$/.test(nombreInput.value);
   if (!nombreValido) {
     nombreInput.classList.add('is-invalid');
     nombreInput.classList.remove('is-valid');

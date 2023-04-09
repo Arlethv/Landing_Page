@@ -107,7 +107,7 @@ nav li {
     transform: translate(-50%, -50%);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 50%;
-    /*border: 5px solid #FFFFFF;*/
+
   }
  
 .enunciado_inicio{
@@ -127,13 +127,16 @@ nav li {
   .btn_inicio{
     position: absolute;
     width: 245px;
-    height: 57px;
+    height: 60px;
     left: 63px;
     top: 437px;
     background: #FFC300;
     border: none;
     border-radius: 10px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .text_btn {
@@ -145,6 +148,7 @@ nav li {
     font-size: 18px;
     line-height: 25px;
     color: #000000;
+    text-align: center;
   }
 
 .circulo2{
@@ -504,9 +508,6 @@ html, body {
 
 }
 
-
-
-
   /*-----------Seccion Curso----------------*/
 
 #curso{
@@ -566,13 +567,11 @@ html, body {
   border-radius: 10px;
   border: 2px solid #FFC300;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.btn_curso:hover {
-  background-color: #FFC300;
-  color: #FFFFFF;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
+
 
 
 .text2{
@@ -582,7 +581,9 @@ html, body {
   font-weight: 700;
   font-size: 20px;
   line-height: 34px;
-  color: #000000;
+  color: #000000 ;
+  text-align: center;
+  margin: 10px 0;
 
 
 }
@@ -591,12 +592,13 @@ html, body {
   background-color: #9C8CB9;
   cursor: pointer;
   border: 0px;
+  color: #ffffff ;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.btn_curso a:hover {
-  color: #ffffff;
+a.btn_curso.text2{
+  color: #000000;
 }
-
 
  /*-----------Seccion Instructora---------------*/
 
@@ -941,11 +943,6 @@ textarea {
 }
 
 
-input[type="checkbox"] {
-  margin-right: 5px;
-  width: auto;
-}
-
 button[type="submit"] {
   background-color: #5b2c6f;
   border: none;
@@ -995,8 +992,9 @@ button[type="submit"] {
   }
   
   input[type="checkbox"] {
-    margin-left: 10px;
+    margin-left: 30px;
     margin-top: 10px;
+    width: auto;
   }
   
   
@@ -1250,11 +1248,9 @@ h2,p{
   background-color: #9C8CB9;
   cursor: pointer;
   border: 0px;
-}
-
-.btn_inicio a:hover {
   color: #ffffff;
 }
+
 
 /*----------Seccion Footer------------------*/
 

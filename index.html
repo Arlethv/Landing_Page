@@ -50,7 +50,8 @@
             <div class="enunciado_inicio"> 
               Descubre cómo mejorar tus finanzas empresariales y llevar tu negocio al siguiente nivel.
             </div>
-            <button class="btn_inicio btn btn-lg btn-warning"><a href="#contacto" style="text-decoration: none;" class="text2">Inscríbete ahora</a> </button>
+            <a href="#contacto" class="btn_inicio btn btn-lg btn-warning" style="text-decoration: none;"><span class="text2">Inscríbete ahora</span></a>
+
           </div>
           <div class="col-md-4">
             <div class="circulo_principal">  
@@ -98,7 +99,7 @@
       <div class="col-md-6">
         <div class="titulo_curso">Aprende a manejar tus finanzas como un experto </div>
         <div class="text_curso">Únete a nuestro curso de finanzas, donde aprenderás las habilidades y conocimientos necesarios para administrar tus finanzas de manera efectiva y alcanzar el éxito en tu negocio. ¡Inscríbete ahora y toma el control de tu futuro financiero!</div>
-        <button class="btn_curso " ><a href="#contacto" style="text-decoration: none;" class="text2">Aprende ahora</a> </button>
+        <a href="#contacto" style="text-decoration: none;" class="btn_curso text2">Aprende ahora</a> 
       </div>
     </div>
   </div>
@@ -210,7 +211,7 @@
     <form action="" class="form_contacto  needs-validation" novalidate  onsubmit="return validarFormulario()">
       <div class="form-group">
         <label for="nombre">Nombre Completo: </label>
-        <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu Nombre y Apellido" pattern="^[a-zA-Z ]+$" required  oninput="validarNombre()">
+        <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu Nombre y Apellido" pattern="^[a-zA-Z]+(\s[a-zA-Z]+)+$" required  oninput="validarNombre()">
         <div class="invalid-feedback">
           Por favor ingresa tu nombre completo
         </div>
