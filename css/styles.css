@@ -1,8 +1,14 @@
 
 /*Menu*/
 .navbar-brand {
-  font-size: 24px;
+  font-size: 22px !important;
   font-weight: bold;
+  font-family: 'Archivo Black', sans-serif; 
+  font-size: 36px;
+  color: #FFFFFF;
+  text-shadow: 1px 1px #000;
+  transition: all 0.3s ease;
+  margin-left: 40px;
 }
 
 .navbar-nav {
@@ -13,7 +19,7 @@
   color: #FFFFFF !important;
   font-size: 18px !important;
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  font-weight: bold !important;
   margin-right: 25px;
   border-bottom: 3px solid transparent;
   transition: all 0.3s ease-in-out;
@@ -34,14 +40,7 @@ nav li {
     border-color: #B2A6D1;
     }
   
-    .navbar-brand {
-      font-family: 'Archivo Black', sans-serif; 
-      font-size: 36px;
-      color: #FFFFFF;
-      text-shadow: 1px 1px #000;
-      transition: all 0.3s ease;
-      margin-left: 40px;
-    }
+  
     
 
   /*-----------Seccion Inicio----------------*/
@@ -398,9 +397,7 @@ html, body {
   padding: 0;
 }
 
-.nav-link{
-  color: #FFFFFF;
-}
+
 
 .cuadrado1{
   position: absolute;
@@ -532,7 +529,7 @@ html, body {
  
 .titulo_curso{
   position: absolute;
-  width: 450px;
+  width: 400px;
   height: 139px;
   left: 879px;
   top: 790px;
@@ -546,7 +543,7 @@ html, body {
 
 .text_curso{
   position: absolute;
-  width: 427px;
+  width: 400px;
   height: 142px;
   left: 879px;
   top: 1000px;
@@ -583,7 +580,7 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 34px;
   color: #000000;
 
@@ -662,12 +659,13 @@ html, body {
     }
     
  
-  .enunciado3{
+
+    .enunciado3{
       position: absolute;
-      width: 430px;
-      height: 259.13px;
-      left: 13px;
-      top: 60px;
+      width: 100%;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
       font-family: 'Montserrat',sans-serif;
       font-style: normal;
       font-weight: 700;
@@ -675,9 +673,11 @@ html, body {
       line-height: 49px;
       text-align: center;
       color: #333333;
-      font-weight: bold;
-  }
-
+      padding: 20px;
+      box-sizing: border-box;
+      }
+      
+      
   .about{
     position: absolute;
     width: 396px;
@@ -865,6 +865,7 @@ input[type="tel"]{
     color: #5B2C6F;
     margin-bottom: 50px;
     margin-left: 100px;
+    margin-top: 20px;
    
 }
 
@@ -1044,7 +1045,7 @@ button[type="submit"] {
   width: 660px;
   height: 440px;
   left: 439px;
-  top: 2820px;
+  margin-top: 205px;
 }
 
 
@@ -1114,10 +1115,10 @@ button[type="submit"] {
   text-align: center;
   color: #5B2C6F;
   right: 40px;
-  top: 2690px;
   width: 450px;
   height: 600px;
   background: none;
+  margin-top: 65px;
 }
 
 
@@ -1127,7 +1128,7 @@ button[type="submit"] {
   width: 450px;
   height: 280px;
   left: 110px;
-  top: 2690px;
+  margin-top: 65px;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
   overflow: hidden;
@@ -1149,7 +1150,7 @@ button[type="submit"] {
   width: 300px;
   height: 630px;
   left: 500px;
-  top: 2670px;
+  margin-top: 40px;
   background: #5B2C6F;
 }
 
@@ -1201,6 +1202,7 @@ button[type="submit"] {
 
 h2,p{
   color: #000000;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .img_contacto{
@@ -1442,3 +1444,181 @@ html {
   scroll-behavior: smooth;
 }
 
+
+/*---------Seccion de Inicio-------------*/
+
+/*Animacion del titulo y subtitulo */
+.titulo,
+#subtitulo_inicio {
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/*Animacion del boton de Inicio */
+
+.btn_inicio {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*Animaciones Curso */
+
+
+.titulo_curso {
+  animation: aparecer 1s ease-in-out;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+/*Animación del texto secundario*/
+.text_curso {
+  text-align: left;
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: animateLeft 1s forwards;
+}
+
+@keyframes animateLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+/*Animación de la imagen*/
+.img_curso {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: animateUp 1s forwards;
+}
+
+@keyframes animateUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+/*Animaciones al boton*/
+
+.btn_curso {
+  padding: 15px 30px;
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn_curso:hover {
+  transform: scale(1.1);
+}
+
+/*Animaciones Seccion */
+
+.container.fade-in {
+  animation: fadeIn 1s ease-in;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.cuadrado4:hover {
+  background-color: #c7d2fe;
+  transition: background-color 0.5s ease;
+}
+
+
+
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #8C78AF;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+  }
+
+  .carousel-indicators button {
+    background-color: #8C78AF;
+    border: none;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .carousel-indicators button.active {
+    background-color: #8C78AF;
+    width: 14px;
+    height: 14px;
+  }
+  
+
+  .carousel-indicators button:not(.active) {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #CCCCCC;
+    background-color: #CCCCCC;
+    margin: 0 5px;
+    margin-top: 10px;
+  }
+ 
+  .invalid-feedback,.valid-feedback{
+    margin-left: 30px;
+  }
+  
+  
