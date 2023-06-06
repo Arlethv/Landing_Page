@@ -208,7 +208,7 @@ Deshabilitar el retraso de AOS en el móvil
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #01036f;
+  color: #5B2C6F;
 }
 
 .navbar .dropdown ul a i {
@@ -747,7 +747,7 @@ max-width: 90%;
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #010483;
+  color: 5B2C6F;
 }
 
 .caracteristicas .caracteristicas-box p {
@@ -831,7 +831,7 @@ max-width: 90%;
   .cuadrado_instructora h2{
     font-size: 30px;
     font-weight: 600;
-    color: #010483 ;
+    color: #5B2C6F ;
 }
 
 .cuadrado_instructora h5{
@@ -1133,12 +1133,20 @@ section {
   color: #fff;
 }
 
-.beneficios .beneficio-item .beneficio-img {
-  width: 100px;
+.beneficios .beneficio-item .beneficio-icono {
+  font-size: 40px;
+  display: inline-block;
+  color: #2D8E9F;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
   border-radius: 50%;
-  border: 6px solid rgba(255, 255, 255, 0.15);
-  margin: 0 auto;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  transition: 0.3s;
 }
+
 
 .beneficios .beneficio-item h3 {
   font-size: 30px;
@@ -1148,7 +1156,7 @@ section {
 }
 
 .beneficios .beneficio-item h4 {
-  font-size: 14px;
+  font-size: 16px;
   color: #000000;
   margin: 0 0 15px 0;
 }
@@ -1166,6 +1174,7 @@ section {
 }
 
 .beneficios .beneficio-item p {
+  font-size: 18px;
   font-style: italic;
   margin: 0 auto 15px auto;
   color: #000000;
@@ -1237,7 +1246,7 @@ section {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #010483;
+  color: #A59ACA;
 }
 
 .contacto .info .email,
@@ -1492,7 +1501,7 @@ section {
 
 
 #footer .copyright {
-  border-top: 1px solid #010479;
+  border-top: 1px solid #5B2C6F;
   text-align: center;
   padding-top: 30px;
 }

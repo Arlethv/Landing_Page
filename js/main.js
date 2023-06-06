@@ -110,9 +110,46 @@
     onscroll(document, toggleBacktotop)
   }
 
+  
+  /**
+   * Navbar toggle para movil
+   */
+  on('click', '.mobile-nav-toggle', function(e) {
+    select('#navbar').classList.toggle('navbar-mobile')
+    this.classList.toggle('bi-list')
+    this.classList.toggle('bi-x')
+  })
 
   /**
-   * desplazamiento en la carga de la página
+ * Activar menús desplegables de navegación móvil
+ */
+  on('click', '.navbar .dropdown > a', function(e) {
+    if (select('#navbar').classList.contains('navbar-mobile')) {
+      e.preventDefault()
+      this.nextElementSibling.classList.toggle('dropdown-active')
+    }
+  }, true)
+
+ /**
+   * Desplazamiento en enlaces
+   */
+ on('click', '.scrollto', function(e) {
+  if (select(this.hash)) {
+    e.preventDefault()
+
+    let navbar = select('#navbar')
+    if (navbar.classList.contains('navbar-mobile')) {
+      navbar.classList.remove('navbar-mobile')
+      let navbarToggle = select('.mobile-nav-toggle')
+      navbarToggle.classList.toggle('bi-list')
+      navbarToggle.classList.toggle('bi-x')
+    }
+    scrollto(this.hash)
+  }
+}, true)
+
+  /**
+   * Desplazamiento al momento de que carga de la página
    */
   window.addEventListener('load', () => {
     if (window.location.hash) {
