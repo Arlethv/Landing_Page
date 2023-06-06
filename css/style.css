@@ -999,7 +999,7 @@ section {
 --------------------------------------------------------------*/
 .beneficios {
   padding: 80px 0;
-  background: url("../img/beneficios.svg") no-repeat;
+  background: url("/assets/img/beneficios.svg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
