@@ -9,6 +9,8 @@
   
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
+ 
+  <!--Font Awesome-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
   <!-- Google Fonts -->
@@ -320,34 +322,17 @@
               <div class="form-group mt-3">
                 <div class="terminos">
                   <input type="checkbox"  name="terminos" id="condiciones" oninput="validarTerminos()" required>
-                  <label for="condiciones">Acepto los <span class="enfasis">Términos y Condiciones de Privacidad</span></label>
+                  <label for="condiciones"> Acepto los <a href=""><span style="color: #A59ACA;">Términos y Condiciones de Privacidad</span></a> </label>
                 </div>
                 <div class="invalid-feedback " style="width: 80%;">
                   Debes aceptar los Términos y Condiciones de Privacidad para enviar el formulario.
                 </div>
               </div> 
              <div class="my-3">
-                <div class="loading">Loading</div>
+                <div class="loading">Cargando</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Tu mensaje se enviado, Gracias!</div>
              </div>
-              <!-- Ventana modal de error -->
-<div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="errorModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="errorModalLabel">Error en el envío del formulario</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Ha ocurrido un error al enviar el formulario. Por favor, inténtalo nuevamente más tarde.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
               <div class="text-center"><button type="submit">Enviar</button></div>
             </form>
           </div>
@@ -356,8 +341,6 @@
 
       </div>
     </section>
-
-
 
     <!-------Seccion FAQ ---------->
     <section id="faq" class="faq section-bg">

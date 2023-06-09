@@ -45,5 +45,5 @@ form.addEventListener('submit', function(event) {
       location.reload();
     }, 2000);
 
-  }, 2000);
+  }, 3000);
 });
